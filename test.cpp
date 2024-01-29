@@ -46,8 +46,8 @@ int main() {
     FILE* fw = fopen(R"(.\2.txt)", "wb");
 #else
     SetNlsFileStoragePath("./nls"); 
-    FILE* f = fopen("(./1.txt)", "wb");
-    FILE* fw = fopen("(./2.txt)", "wb");
+    FILE* f = fopen("./1.txt", "wb");
+    FILE* fw = fopen("./2.txt", "wb");
 #endif 
     
     
